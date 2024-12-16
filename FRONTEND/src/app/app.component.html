@@ -1,0 +1,24 @@
+<app-header></app-header>
+<div class="layout">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <nav class="sidebar">
+        <ul>
+            <li>
+                <a routerLink="/catalogue" routerLinkActive="active">
+                    <i class="fa fa-book"></i> Catalog
+                </a>
+            </li>
+            <li>
+                <a routerLink="/panier" routerLinkActive="active">
+                    <i class="fa fa-shopping-cart"></i> Panier
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <main class="content">
+        <router-outlet></router-outlet>
+    </main>
+</div>
